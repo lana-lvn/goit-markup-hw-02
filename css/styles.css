@@ -50,6 +50,12 @@
     color: var(--color-cloud); 
 }
 
+/* Body text */
+
+.body-text {
+    color: var(--color-slate);
+}
+
 /**
   |============================
   | HEADER
@@ -95,6 +101,12 @@
 
 /* Hero Section */
 
+.hero-section {
+background-color: var(--color-navy-blue);
+}
+
+/* H1 Title */
+
 .hero-title {
 
     font-weight: 700;
@@ -119,3 +131,51 @@
  background-color: var(--color-ocean);
 }
 
+/* H2 Titles */
+
+.section-title {
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+/* H3 Titles */
+
+.li-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+/**
+  |============================
+  | PORTFOLIO STYLES
+  |============================
+*/
+
+.filter-btn {
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: var(--color-iris);
+
+    background-color: var(--color-cloud);
+
+    cursor: pointer;
+}
+
+.filter-btn:hover, .filter-btn:focus, .filter-btn:active {
+    color: var(--color-white);
+    background-color: var(--color-ocean);
+}
+
+.card-title {
+  
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+
+}
