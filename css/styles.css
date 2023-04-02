@@ -1,0 +1,121 @@
+/**
+  |============================
+  | COMMON STYLES
+  |============================
+*/
+:root {
+    --color-iris: #4d5ae5;
+    --color-ocean: #404bbf;
+    --color-navy-blue: #2e2f42;
+    --color-green: #31d0aa;
+    --color-slate: #434455;
+    --color-light-slate: #8e8f99;
+    --color-cornflower: #e7e9fc;
+    --color-cloud: #f4f4fd;
+    --color-grey: #2e2f42;
+    --color-white: #ffffff;
+    --color-dairy: #fcfcfc; }
+
+.body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-navy-blue);
+
+    background-color: var(#ffffff);
+}
+
+/* LOGO */
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    color: var(--color-iris);
+}
+
+.logo-head {
+    color: var(--color-navy-blue);
+}
+
+.logo-foot {
+    color: var(--color-cloud); 
+}
+
+/**
+  |============================
+  | HEADER
+  |============================
+*/
+
+/* Navigation */
+
+.link {
+    text-decoration: none;
+}
+
+.menu-nav a {
+    font-weight: 500;
+    color: var(--color-navy-blue);
+
+}
+
+.address a {
+    font-style: normal;
+    color: var(--color-slate);
+}
+
+.link:hover, .link:focus {
+    color: var(--color-ocean);
+}
+
+/**
+  |============================
+  | FOOTER
+  |============================
+*/
+
+.text-foot {
+    color: var(--color-cloud);
+}
+
+/**
+  |============================
+  | STUDIO STYLES
+  |============================
+*/
+
+/* Hero Section */
+
+.hero-title {
+
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.hero-btn {
+        font-weight: 500;
+        letter-spacing: 0.04em;
+        color: var(--color-white);
+
+        background-color: var(--color-iris);
+
+        cursor: pointer;
+        
+}
+
+.hero-btn:hover, .hero-btn:focus, .hero-btn:active {
+ background-color: var(--color-ocean);
+}
+
