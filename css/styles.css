@@ -80,7 +80,7 @@
    
 } */
 
-.adr .link {
+.adr.link {
     font-style: normal;
     font-weight: 400;
     color: var(--color-slate);
