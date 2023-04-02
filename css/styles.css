@@ -62,7 +62,7 @@
 .body-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-slate);
 }
@@ -80,10 +80,13 @@
    
 } */
 
-.adr.link {
+.address {
     font-style: normal;
+    
+}
+
+.adr.link {
     font-weight: 400;
-    color: var(--color-slate);
 }
 
 .link:hover, .link:focus {
