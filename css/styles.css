@@ -88,7 +88,9 @@
   | FOOTER
   |============================
 */
-
+.footer {
+    background-color: var(--color-navy-blue);
+}
 .text-foot {
     color: var(--color-cloud);
 }
@@ -117,6 +119,7 @@ background-color: var(--color-navy-blue);
 }
 
 .hero-btn {
+        font-family: inherit;
         font-weight: 500;
         letter-spacing: 0.04em;
         color: var(--color-white);
@@ -151,6 +154,14 @@ background-color: var(--color-navy-blue);
     line-height: 1.2;
 }
 
+.our-team {
+    background-color: var(--color-cloud);
+}
+
+.team-card {
+    background-color: var(--color-white);
+}
+
 /**
   |============================
   | PORTFOLIO STYLES
@@ -158,6 +169,7 @@ background-color: var(--color-navy-blue);
 */
 
 .filter-btn {
+    font-family: inherit;
     font-weight: 500;
     letter-spacing: 0.04em;
     color: var(--color-iris);
