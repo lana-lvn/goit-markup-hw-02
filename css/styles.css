@@ -28,6 +28,10 @@
     background-color: var(#ffffff);
 }
 
+.link {
+    text-decoration: none;
+}
+
 /* LOGO */
 
 .logo {
@@ -37,7 +41,6 @@
     line-height: 1.16;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-decoration: none;
 
     color: var(--color-iris);
 }
@@ -63,10 +66,6 @@
 */
 
 /* Navigation */
-
-.link {
-    text-decoration: none;
-}
 
 .menu-nav a {
     font-weight: 500;
